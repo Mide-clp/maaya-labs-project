@@ -157,4 +157,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# postgresql://root:root@host.docker.internal/company_x
+# postgresql://root:root@host.docker.internal/company_x - use this to connect to apache superset

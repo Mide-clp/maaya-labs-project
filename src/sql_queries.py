@@ -2,9 +2,9 @@ import os
 
 create_table_dashboard = \
     """
-CREATE TABLE IF NOT EXISTs general_dashboard (
+CREATE TABLE IF NOT EXISTS general_dashboard (
     id SERIAL PRIMARY KEY,
-    start_date TIMESTAMP WITHOUT TIME ZONE, 
+    date TIMESTAMP WITHOUT TIME ZONE, 
     source TEXT, 
     sessions BIGINT,
     organic_searches BIGINT,
@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTs general_dashboard (
 create_table_publisher = \
     """
 CREATE TABLE IF NOT EXISTS publisher (
-    date_start TIMESTAMP WITHOUT TIME ZONE, 
+    date TIMESTAMP WITHOUT TIME ZONE, 
     publisher_platform TEXT, 
     spend FLOAT(53)
 );
