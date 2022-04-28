@@ -41,5 +41,3 @@ publisher_count = \
     SELECT COUNT(*)
     FROM publisher;
     """
-
-print(os.getcwd())

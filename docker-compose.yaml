@@ -1,12 +1,13 @@
 services:
   pgdatabase:
     image: postgres
+    restart: always
     environment:
       - POSTGRES_USER=root
       - POSTGRES_PASSWORD=root
       - POSTGRES_DB=maaya
     volumes:
-      - "./maaya_labs_data:/var/lib/postgresql/data:rw"
+      - "./postgres_data:/var/lib/postgresql/data:rw"
     ports:
       - "5432:5432"
     healthcheck:
