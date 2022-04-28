@@ -75,8 +75,8 @@ sample visualization
 <br>
 
 **Channel level breakdown of website orders**
-![Channel_breakdown_website_orders](doc/channel_breakdown_website_orders.png)
+<img src="doc/channel_breakdown_website_orders.png">
 <br>
 
 **Channel level breakdown of revenue**
-![Channel_breakdown_revenue](doc/channel_level_breakdown_revenue.png)
+<img src="doc/channel_level_breakdown_revenue.png">()
