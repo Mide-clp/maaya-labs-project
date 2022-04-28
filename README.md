@@ -71,7 +71,7 @@ Install **[Apache superset](https://superset.apache.org/docs/installation/instal
 sample visualization
 
 **Channel breakdown of spend per ad platform**
-![Channel breakdown spend](doc/channel_breakdown_spend.png)
+<img src="doc/channel_breakdown_spend.png">
 <br>
 
 **Channel level breakdown of website orders**
@@ -79,4 +79,4 @@ sample visualization
 <br>
 
 **Channel level breakdown of revenue**
-<img src="doc/channel_level_breakdown_revenue.png">()
+<img src="doc/Channel_level_breakdown_revenue.png">
